@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/CoderLoveMath/server_study/issues"
   },
-  "homepage": "https://github.com/CoderLoveMath/server_study#readme"
+  "homepage": "https://github.com/CoderLoveMath/server_study#readme",
+  "dependencies": {
+    "underscore": "^1.10.2"
+  }
 }

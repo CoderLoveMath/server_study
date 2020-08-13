@@ -1,0 +1,19 @@
+{
+  "name": "server_study",
+  "version": "1.0.0",
+  "description": "node.js tutorial from egoing's class",
+  "main": "webserver1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoderLoveMath/server_study.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CoderLoveMath/server_study/issues"
+  },
+  "homepage": "https://github.com/CoderLoveMath/server_study#readme"
+}

@@ -6,5 +6,5 @@ console.log(dataSync);
 
 // Async
 fs.readFile("data.txt", {encoding: "utf-8"}, function(err, data){
-    console.log(data)
+    console.log(data);
 })

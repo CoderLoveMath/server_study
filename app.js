@@ -10,6 +10,11 @@ app.get('/', function (req, res){ // main callback (req: request, res: response)
     res.send(html)
 });
 
+app.get('/login', function (req, res){  // login page
+    const html = fs.readFileSync('login.html', {encoding: 'utf-8'})
+    res.send(html)
+})
+
 app.listen(port, function (){   // connect callback
     console.log('connected ' + port + ' port');
 });

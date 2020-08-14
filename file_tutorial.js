@@ -1,10 +1,10 @@
 const fs = require('fs');
 
-// sync
+// Sync
 var dataSync = fs.readFileSync("data.txt", {encoding: "utf-8"});
 console.log(dataSync);
 
-// async
+// Async
 fs.readFile("data.txt", {encoding: "utf-8"}, function(err, data){
     console.log(data)
 })

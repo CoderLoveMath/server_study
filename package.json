@@ -18,6 +18,7 @@
   "homepage": "https://github.com/CoderLoveMath/server_study#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "jade": "^1.11.0",
     "underscore": "^1.10.2"
   }
 }

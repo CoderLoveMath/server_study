@@ -40,8 +40,9 @@ app.get('/dynamic', function (req, res){
         <h2>푸쿠쾅왕앙아앙</h1>
         <p>주의! 폭발 가능성 ∞%</p>
 
+        <ul>
         ${lis}
-
+        </ul>
         <button onclick="window.location.href = 'login'">이거 가짜 로그인인거 다들 아시져?</button>
     </center>
 </body>

@@ -2,8 +2,9 @@ const express = require('express');
 const fs = require('fs');
 var app = express();
 
-const port = 8000
+const port = 8000;
 
+app.use(express.static('page'));
 // app.get() is router, and it does routing
 
 app.get('/', function (req, res){ // main callback (req: request, res: response)

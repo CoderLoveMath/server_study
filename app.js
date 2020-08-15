@@ -5,7 +5,13 @@ var app = express();
 const port = 8000;
 
 app.use(express.static('page'));
+app.set('view engine', 'jade');
+app.set('views', './templates');
 // app.get() is router, and it does routing
+
+app.get('/template/1', function(req, res){
+    res.render('temp1');
+})
 
 app.get('/', function (req, res){ // main callback (req: request, res: response)
     const html = fs.readFileSync('main.html', {encoding: 'utf-8'})

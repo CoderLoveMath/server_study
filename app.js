@@ -10,7 +10,8 @@ app.set('views', './templates');
 // app.get() is router, and it does routing
 
 app.get('/board', function(req, res){
-    res.send('👋');
+    const html = fs.readFileSync('board.html', {encoding: 'utf-8'})
+    res.send(html)
 })
 app.get('/template/1', function(req, res){
     res.render('temp1', {name: "guest"});

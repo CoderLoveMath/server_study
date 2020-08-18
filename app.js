@@ -4,7 +4,7 @@ var app = express();
 
 const port = 8000;
 
-app.use(express.static('page'));
+app.use(express.static('intro'));
 app.set('view engine', 'jade');
 app.set('views', './templates');
 // app.get() is router, and it does routing
@@ -42,6 +42,7 @@ app.get('/dynamic', function (req, res){
     <title>HAHA</title>
 </head>
 <body>
+    <a href="../">< 메뉴로 돌아가기</a>
     <center>
         <h1 style="font-size: 10em">👋</h1>
         <h1>#로컬 #서버 #개발기 #코더혹은레독 #이페이지는동적</h1>

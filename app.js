@@ -9,6 +9,7 @@ app.set('view engine', 'jade');
 app.set('views', './templates');
 // app.get() is router, and it does routing
 
+app.get('/')
 app.get('/template/1', function(req, res){
     res.render('temp1', {name: "guest"});
 })

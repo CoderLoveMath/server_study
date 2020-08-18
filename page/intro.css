@@ -7,3 +7,12 @@ body {
 h1 {
     font-size: 60px;
 }
+
+.center-align {
+    display: table;
+}
+
+.box {
+    display: table-cell;
+    vertical-align: middle;
+}
